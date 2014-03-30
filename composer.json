@@ -1,0 +1,8 @@
+{
+    "minimum-stability": "DEV",
+    "require": {
+        "guzzlehttp/guzzle": "4.*",
+        "cboden/Ratchet": "0.3.*",
+        "dnode/dnode": "*"
+    }
+}
