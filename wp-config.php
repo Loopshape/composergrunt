@@ -18,11 +18,11 @@ define( 'FS_METHOD', 'direct');
 
 /**  MySQL Einstellungen - diese Angaben bekommst du von deinem Webhoster. */
 /**  Ersetze database_name_here mit dem Namen der Datenbank, die du verwenden m�chtest. */
-define('DB_NAME', 'usr_web676_26');
+define('DB_NAME', 'DATABASENAME');
 /** Ersetze username_here mit deinem MySQL-Datenbank-Benutzernamen */
-define('DB_USER', 'web676');
+define('DB_USER', 'ROOT');
 /** Ersetze password_here mit deinem MySQL-Passwort */
-define('DB_PASSWORD', '1367secg0');
+define('DB_PASSWORD', 'ROOT');
 /** Ersetze localhost mit der MySQL-Serveradresse */
 define('DB_HOST', 'localhost');
 /** Der Datenbankzeichensatz der beim Erstellen der Datenbanktabellen verwendet werden soll */
