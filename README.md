@@ -1,11 +1,7 @@
 COMPOSERGRUNT
-[Skeleton package]
-====================
-Assembled in 2014 by 
-Arjuna Noorsanto
-====================
-http://loopshape.org
-====================
+=============
+This skeleton-package is assembled in 2014 by 
+Arjuna Noorsanto • http://loopshape.org
 
 #Description:
 
