@@ -1,5 +1,5 @@
 {
-  "name": "frontend skeleton",
+  "name": "frontend_skeleton",
   "version": "0.1.0",
   "description": "http://loopshape.org",
   "main": "Gruntfile.js",
@@ -36,10 +36,10 @@
     "grunt-contrib-imagemin": "~0.3.*",
     "grunt-contrib-yuidoc": "~0.5.*",
     "grunt-contrib": "~0.8.*",
-    "grunt-replace": "@dev",
+    "grunt-replace": "*",
     "grunt-encoding": "~0.1.*",
     "grunt-ssh": "~0.10.*",
     "grunt-ftp-deploy": "0.0.*",
-    "grunt-sftp-deploy": "@dev"
+    "grunt-sftp-deploy": "*"
   }
 }
