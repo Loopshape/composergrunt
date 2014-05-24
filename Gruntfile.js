@@ -50,7 +50,7 @@ module.exports = function( grunt ) {"use strict";
 	grunt.initConfig( {
 		
 		// the Grunt work-folder
-		baseUrl : "/assets/js",
+		baseUrl : "./assets/js",
 
 		// loads the Node dependencies
 		pkg : grunt.file.readJSON( "./package.json" ),
@@ -58,13 +58,13 @@ module.exports = function( grunt ) {"use strict";
 		// the main config for the directories
 		cfg : {
 			// the directory for the app within the javascript-assets-dir 
-			app : "<%= baseUrl %>/app",
+			app : "<%= baseUrl %>/app/",
 			// the plugins dir for the app
-			lib : "<%= baseUrl %>/app/lib",
+			lib : "<%= baseUrl %>/app/lib/",
 			// the core files for jQuery, Require.js and Backbone+Underscore
-			core : "<%= baseUrl %>/app/core",
+			core : "<%= baseUrl %>/app/core/",
 			// the temporary dir within the app path
-			tmp : "<%= baseUrl %>/app/tmp",
+			tmp : "<%= baseUrl %>/app/tmp/",
 		},
 		
 		// set encoding to UTF8
