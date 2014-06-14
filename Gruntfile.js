@@ -2,19 +2,17 @@
  * Backbone/Require.JS for GRUNT + COMPOSER SKELETON
  * 
  * Assembled by Arjuna Noorsanto
- * http://loopshape.com/
+ * (R)2014 Hamburg / Germany
+ *
+ * http://loopshape.org/
  * --------------------------------------------------
  *
  * Recommended file-system for this Gruntfile:
  * 
- * > ROOT:
- * 
- * ...Website files...
- * 
  * --> assets [folder for building JS/SASS/CS with Require.JS/Backbone]
- * -----> css
- * -----> img
- * -----> js
+ * -----> css [normal stylesheets]
+ * -----> img [visual media]
+ * -----> js [Require.JS / Backbone App]
  * -------> app
  * ---------> class [folder for JS logics]
  * ---------> core [folder for App corefiles]
@@ -26,21 +24,15 @@
  * ---------> lib [folder for JS Front-end plugins]
  * ---------> tmp [temporary folder for assets build]
  * ---------> app.js [main App JS-file]
- * ---------> jshintrc.json
+ * ---------> jshintrc.json [jshint configuration file]
  * -------> main.js [config/bootstrap file]
- * -------> r.js
- * -------> require.js
- * 
- * --> public [folder for public-assets access]
- * 
- * ...Website files...
- * 
+ * -------> r.js [Require.JS core file]
+ * -------> require.js [Require.JS scriptloader]
  * 
  * PS: The baseUrl in the config must be the same, according to the ROOT domain!
  *
  * for reference for the Grunt config go to:
  * https://github.com/jrburke/r.js/blob/master/build/example.build.js
- * 
  */
 
 // define Grunt process
