@@ -26,5 +26,5 @@ After these tools are installed, you can start the Node package manager with:
   
   
 #Copyright:
-This package is assembled for an personal/educational intention and not ready for production usage nor commercial purposes!
+This package is assembled for a personal/educational intention and not ready for production usage nor commercial purposes!
 All rights of the scripts are belonging to their respective owners.
